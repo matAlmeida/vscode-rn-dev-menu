@@ -16,6 +16,7 @@
   "authors": [
     "Matheus Almeida <mat.almeida@live.com>"
   ],
+  "publisher": "matalmeida",
   "activationEvents": [
     "onCommand:react-native-dev-menu.devrnmenu",
     "onCommand:react-native-dev-menu.reverseport"
