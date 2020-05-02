@@ -2,7 +2,7 @@
   "name": "react-native-dev-menu",
   "displayName": "React Native Dev Menu",
   "description": "Helper on React Native Dev Menu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.43.0"
   },
