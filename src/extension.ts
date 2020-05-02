@@ -30,6 +30,10 @@ export function activate(context: vscode.ExtensionContext) {
 			placeHolder: '8081',
 			prompt: 'Enter a port to be reversed via tcp',
 			validateInput: (input) => {
+				if(input === undefined || input === '') {
+					return;
+				}
+				
 				const isOnlyNumber = /^\d+$/.test(input);
 
 				if (!isOnlyNumber) {
